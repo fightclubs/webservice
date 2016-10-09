@@ -1,6 +1,6 @@
 <?php 
 use Workerman\Worker;
-require_once './Workerman/Autoloader.php';
+require_once '../Workerman/Autoloader.php';
 
 // Create a Websocket server
 $ws_worker = new Worker("websocket://0.0.0.0:7272");
